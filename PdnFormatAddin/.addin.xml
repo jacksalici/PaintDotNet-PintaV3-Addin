@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Addin id="PdnFormatAddin" version="1.0">
+	<Header>
+		<Name>Paint.NET Format Add-in</Name>
+		<Description>Opens Paint.NET (.pdn) images, keeping their layers</Description>
+		<Author>Giacomo Salici</Author>
+	</Header>
+	<Dependencies>
+		<Addin id="Pinta" version="3.1" />
+	</Dependencies>
+</Addin>

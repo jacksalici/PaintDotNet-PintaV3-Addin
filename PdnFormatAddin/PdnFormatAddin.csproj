@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<!-- Pinta 3.1.x ships with the .NET 8 runtime -->
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Mono.Addins" Version="1.4.2-alpha.4" />
+		<ProjectReference Include="..\Pinta\Pinta.Core\Pinta.Core.csproj" />
+		<EmbeddedResource Include=".addin.xml" />
+	</ItemGroup>
+</Project>
